@@ -46,3 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Actual start of css */
+html{
+margin: auto;
+
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#reveal{
+    width: 30px;
+    height: 30px;
+}
+
