@@ -69,8 +69,8 @@ p{
 
 .paragraph{
 	margin-bottom: 25rem;
+	scroll-behavior: auto;
 }
-
 
 
 #reveal{
