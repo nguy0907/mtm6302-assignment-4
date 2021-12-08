@@ -69,10 +69,22 @@ p{
 
 .paragraph{
 	margin-bottom: 25rem;
-	scroll-behavior: auto;
+}
+
+#paragraph2{
+
 }
 
 
+
+.scroll{
+	scroll-behavior: smooth;
+	background-color: red;	
+	transition: 2s;
+}
+
+
+/* This is the css for the hamburger menu */
 #reveal{
     width: 30px;
     height: 30px;
