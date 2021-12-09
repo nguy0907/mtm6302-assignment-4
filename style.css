@@ -69,11 +69,8 @@ p{
 
 .paragraph{
 	margin-bottom: 25rem;
-}
-
-#paragraph2{
-opacity: 0;
-
+	opacity: 0.5;
+	transition: 2s;
 }
 
 
@@ -83,6 +80,7 @@ opacity: 1;
 	transition: 2s;
 }
 
+/* window.pageYoffset window.innerHeight element.offsettop */
 
 /* This is the css for the hamburger menu */
 #reveal{

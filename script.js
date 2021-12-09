@@ -16,8 +16,14 @@ if ($hamburgerMenu){
 
 window.addEventListener('scroll', function(){
     // const $scrolldown = e.target.closest('scrolldown')
-  $paragraph2.classList.toggle('scroll')
-  console.log('hi')
+  
+
+ 
+  if (window.pageYOffset>700){
+   $paragraph2.classList.add('scroll')
+    console.log('hi') 
+  }
+  
     
     
   
