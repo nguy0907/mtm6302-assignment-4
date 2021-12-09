@@ -1,9 +1,9 @@
 const $container = document.getElementById('container')
 const $reveal = document.getElementById('reveal')
 const $hamburgerMenu = document.getElementById('hamburgerMenu')
-const $scroll = document.getElementById('scroll')
 const $paragraph2 = document.getElementById('paragraph2')
-const $link2 = document.getElementById('link2')
+const $paragraph3 = document.getElementById('paragraph3')
+
 
 
 $reveal.addEventListener('click', function(e){
@@ -21,9 +21,13 @@ window.addEventListener('scroll', function(){
  
   if (window.pageYOffset>700){
    $paragraph2.classList.add('scroll')
-    console.log('hi') 
-  }
+
+  } 
   
+  if (window.pageYOffset>1200){
+    $paragraph3.classList.add('scroll')
+  }
+
     
     
   

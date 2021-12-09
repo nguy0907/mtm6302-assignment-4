@@ -69,9 +69,14 @@ p{
 
 .paragraph{
 	margin-bottom: 25rem;
-	opacity: 0.5;
+
+}
+
+.paragraph2,.paragraph3{
+		opacity: 0;
 	transition: 2s;
 }
+
 
 
 .scroll{
@@ -79,6 +84,9 @@ scroll-behavior: smooth;
 opacity: 1;
 	transition: 2s;
 }
+
+
+
 
 /* window.pageYoffset window.innerHeight element.offsettop */
 
