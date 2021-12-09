@@ -72,14 +72,14 @@ p{
 }
 
 #paragraph2{
+opacity: 0;
 
 }
 
 
-
 .scroll{
-	scroll-behavior: smooth;
-	background-color: red;	
+scroll-behavior: smooth;
+opacity: 1;
 	transition: 2s;
 }
 

@@ -14,12 +14,11 @@ if ($hamburgerMenu){
 }
 })
 
-$link2.addEventListener('click', function(){
+window.addEventListener('scroll', function(){
     // const $scrolldown = e.target.closest('scrolldown')
-  
-    if($paragraph2){ 
   $paragraph2.classList.toggle('scroll')
-     }
+  console.log('hi')
+    
     
   
 })
