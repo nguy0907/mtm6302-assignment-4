@@ -15,10 +15,20 @@ if ($hamburgerMenu){
 })
 
 window.addEventListener('scroll', function(){
-    // const $scrolldown = e.target.closest('scrolldown')
+    
+  //Mobile screen
+    if (window.pageYOffset>700){
+      $paragraph2.classList.add('mobilescroll')
+    }
+  
+  
+    if (window.pageYOffset>1700){
+      $paragraph3.classList.add('mobilescroll')
+    }
   
 
- 
+
+ //Tablet and desktop
   if (window.pageYOffset>700){
    $paragraph2.classList.add('scroll')
 
@@ -28,7 +38,4 @@ window.addEventListener('scroll', function(){
     $paragraph3.classList.add('scroll')
   }
 
-    
-    
-  
 })

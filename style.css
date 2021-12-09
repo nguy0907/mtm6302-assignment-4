@@ -71,20 +71,17 @@ p{
 	margin-bottom: 25rem;
 
 }
-
-.paragraph2,.paragraph3{
+	.paragraph2,
+	.paragraph3{
 		opacity: 0;
 	transition: 2s;
 }
 
-
-
-.scroll{
-scroll-behavior: smooth;
-opacity: 1;
-	transition: 2s;
-}
-
+.mobilescroll{
+	scroll-behavior: smooth;
+	opacity: 1;
+		transition: 2s;
+	}	
 
 
 
@@ -118,4 +115,22 @@ display: none;
 
 footer{
 	margin-bottom: 2rem;
+}
+
+@media screen and (min-width:700px) {
+	
+.paragraph2,.paragraph3{
+		opacity: 0;
+	transition: 2s;
+}
+
+
+
+.scroll{
+scroll-behavior: smooth;
+opacity: 1;
+	transition: 2s;
+}
+
+
 }
