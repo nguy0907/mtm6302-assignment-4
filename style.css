@@ -92,7 +92,7 @@ a{
 
 
 
-/* window.pageYoffset window.innerHeight element.offsettop */
+
 
 /* This is the css for the hamburger menu */
 #reveal{
@@ -127,6 +127,7 @@ footer{
 	padding-bottom: 3em;
 }
 
+/* For tablet and above, the height of when the paragraph appear happens at a different time */
 @media screen and (min-width:700px) {
 	
 .paragraph2,.paragraph3{
