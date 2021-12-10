@@ -96,8 +96,8 @@ a{
 
 /* This is the css for the hamburger menu */
 #reveal{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 	margin-top: 3rem;
 	background-color: #ACF39D;
 }
