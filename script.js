@@ -1,9 +1,9 @@
 const $container = document.getElementById('container')
 const $reveal = document.getElementById('reveal')
 const $hamburgerMenu = document.getElementById('hamburgerMenu')
+const $paragraph1 = document.getElementById('paragraph1')
 const $paragraph2 = document.getElementById('paragraph2')
 const $paragraph3 = document.getElementById('paragraph3')
-
 
 
 $reveal.addEventListener('click', function(e){
@@ -16,6 +16,11 @@ if ($hamburgerMenu){
 
 window.addEventListener('scroll', function(){
     
+  if (window.pageYOffset>200){
+    $paragraph1.classList.add('mobilescroll')
+  }
+
+
   //Mobile screen
     if (window.pageYOffset>700){
       $paragraph2.classList.add('mobilescroll')

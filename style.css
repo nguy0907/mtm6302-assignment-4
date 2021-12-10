@@ -55,6 +55,11 @@ text-align: center;
 
 }
 
+header{
+	background-color: #ACF39D;
+	padding-bottom: 3em;
+}
+
 h2{
     font-size: 40px;
     margin-bottom: 3rem;
@@ -67,15 +72,17 @@ p{
 	font-size: 20px;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 .paragraph{
 	margin-bottom: 25rem;
-
-}
-	.paragraph2,
-	.paragraph3{
-		opacity: 0;
+	opacity: 0;
 	transition: 2s;
 }
+
 
 .mobilescroll{
 	scroll-behavior: smooth;
@@ -92,6 +99,7 @@ p{
     width: 30px;
     height: 30px;
 	margin-top: 3rem;
+	background-color: #ACF39D;
 }
 
 ul li{
@@ -114,7 +122,9 @@ display: none;
 }
 
 footer{
-	margin-bottom: 2rem;
+	background-color: #ACF39D;
+	padding-top:3em;
+	padding-bottom: 3em;
 }
 
 @media screen and (min-width:700px) {
